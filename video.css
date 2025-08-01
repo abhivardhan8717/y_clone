@@ -1,0 +1,82 @@
+
+            .thumbnail{
+                width: 100%;
+                display: block;
+
+            }
+            .video-title{
+                margin-top:0 ;
+                font-size: 13px;
+                font-weight: 500;
+                line-height: 20px;
+                margin-bottom: 10px;
+            }
+            .video-author,.video-stats{
+                font-size: 12px;
+            }
+            .video-author{
+                margin-bottom: 4px;
+            }
+            .video-preveiw{
+                vertical-align: top;
+                width: 300px;
+                display: inline-block;
+                margin-right: 15px;
+            }
+            .channel-picture{
+                display: inline-block;
+                width: 50px;
+                vertical-align: top;
+            }
+            .video-info{
+                display: inline-block;
+                width: 235px;
+            }
+            .profile-picture{
+                width: 36px;
+                 border-radius: 50px;
+                
+            }
+            .thumbnail-row{
+                margin-bottom: 8px;
+                position: relative;
+            }
+            .video-info-grid{
+                display: grid;
+                grid-template-columns: 50px 1fr ;
+            }
+            .video-grid{
+                font-family: Roboto,Arial;
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                row-gap: 40px;
+            }
+            @media(max-width:750px){
+                .video-grid{
+                    grid-template-columns: 1fr 1fr;
+                }
+            }
+
+            @media(min-width:799px)and(max-width:999px){
+                .video-grid{
+                    grid-template-columns: 1fr 1fr 1fr;
+                }
+            }
+
+             @media(min-width:800px){
+                .video-grid{
+                    grid-template-columns: 1fr 1fr 1fr 1fr ;
+                }
+            }
+            .video-time{
+                font-family: Roboto,Arial;
+                font-size: 12px;
+                font-weight: 500;
+                padding:4px 4px 4px 4px;
+                border-radius: 2px;
+                background-color: black;
+                color: white;
+                position: absolute;
+                bottom: 10px;
+                right: 5px;
+            }
